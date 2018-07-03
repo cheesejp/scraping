@@ -34,7 +34,7 @@ eval `ssh-agent`
 
 3. テスト
 ```
-ssh -T git@github. com
+ssh -T git@github.com
 ```
 
 * 参考 *
