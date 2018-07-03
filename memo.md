@@ -42,3 +42,11 @@ ssh -T git@github.com
 
 
 # ユニットテスト
+
+* テストディレクトリに__init__.pyを作成してモジュールとして認識させる必要がある。
+* 検証メソッドはtest_検証メソッド名の命名規則にする。命名規則に一致するメソッドが自動的に実行される。
+* テストは以下のコマンド
+```
+python -m unittest
+python -m unittest test/hogehoge.py
+```

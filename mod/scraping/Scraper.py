@@ -10,8 +10,11 @@ class Scraper:
         self.__request_url = request_url
 
     def set_request_url(self, request_url):
-        if isinstance(url, str):
+        if isinstance(request_url, str):
             self.__request_url = request_url
+
+    def get_response(self):
+        return self.__response
 
     def query(self):
         if self.__request_url != "":
