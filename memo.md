@@ -1,20 +1,22 @@
 # Python仮想環境
 
 ## 仮想環境の有効化
+```
 python -m venv scraping
-
+```
 ## 仮想環境の起動
+```
 <venv>/scraping/Script/active.bat
-
+```
 ※Linux環境は、別の手順で有効化する必要がある
 
 
 # Pythonパッケージのインストール
-
+```
 pip list
 pip install bs4
 pip install requests
-
+```
 
 # githubへSSH接続
 1. 共通鍵の作成
@@ -37,8 +39,7 @@ eval `ssh-agent`
 ssh -T git@github.com
 ```
 
-* 参考 *
-<https://qiita.com/colorrabbit/items/6c3e96c394bb0f753ea0>
+* 参考 <https://qiita.com/colorrabbit/items/6c3e96c394bb0f753ea0>
 
 
 # ユニットテスト
