@@ -18,6 +18,12 @@ pip install bs4
 pip install requests
 ```
 
+# Pycharmの仮想環境(venv)の適応
+
+* File->Settings
+* Project:XXX->ProjectInterrupter
+* Pythonの仮想環境のパスが選択できるので、選択しOKをクリック
+
 # githubへSSH接続
 1. 共通鍵の作成
 ```
@@ -51,3 +57,5 @@ ssh -T git@github.com
 python -m unittest
 python -m unittest test/hogehoge.py
 ```
+
+
